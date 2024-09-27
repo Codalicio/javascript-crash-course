@@ -31,3 +31,12 @@ console.log(upperCaseString);
 // toLowerCase() method :
 let lowerCaseString = upperCaseString.toLowerCase();
 console.log(lowerCaseString);
+
+// String slicing :
+
+let myName = "Harshit";
+let newName = myName.slice(0, 5);
+console.log(newName);
+
+newName = myName.slice(1);
+console.log(newName);
