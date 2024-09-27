@@ -33,3 +33,11 @@ let last_name = "Kumar";
 
 console.log(lastName); // camelCase writing
 console.log(last_name); // snake_case writing
+
+// let keyword :
+
+let fullName = "Amit Raj";
+console.log(fullName);
+
+fullName = "Sonu Kumar";
+console.log(fullName);
