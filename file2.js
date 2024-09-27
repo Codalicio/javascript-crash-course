@@ -52,3 +52,10 @@ console.log(typeof(newName));
 let myAge = 99;
 myAge = myAge + "";
 console.log(typeof(myAge));
+
+// Convert a number to a string using a coonstructor :
+let myNum = 898;
+console.log(typeof(myNum));
+
+myNum = String(myNum);
+console.log(typeof(myNum));
