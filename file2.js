@@ -96,3 +96,16 @@ console.log(typeof(finalItem));
 finalItem = +item1 + +item2;
 console.log(finalItem);
 console.log(typeof(finalItem));
+
+// Template String :
+
+let age1 = 99;
+let personName = "Raj";
+
+// Without Using Template string :
+let aboutMe = "My name is " + personName + " and my age is " + age1;
+console.log(aboutMe);
+
+// Using Template string :
+aboutMe = (`My name is ${personName} and my age is ${age1}.`);
+console.log(aboutMe);
