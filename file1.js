@@ -35,9 +35,15 @@ console.log(lastName); // camelCase writing
 console.log(last_name); // snake_case writing
 
 // let keyword :
-
 let fullName = "Amit Raj";
 console.log(fullName);
 
 fullName = "Sonu Kumar";
 console.log(fullName);
+
+// Declaring constants :
+// Constant variables cannot be re-assigned any value after declaration.
+
+const pi = 3.14;
+// pi = 3.15;
+console.log(pi);
