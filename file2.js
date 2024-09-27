@@ -66,3 +66,10 @@ console.log(typeof(myStr));
 
 myStr = +myStr;
 console.log(typeof(myStr));
+
+// Convert a string to a number using the constructor method :
+let myStr1 = "56";
+console.log(typeof(myStr1));
+
+myStr1 = Number(myStr1);
+console.log(typeof(myStr1));
