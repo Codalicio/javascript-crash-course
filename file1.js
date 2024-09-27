@@ -19,3 +19,17 @@ console.log(firstName);
 // Changing value of the variable :
 firstName = "Sonu";
 console.log(firstName);
+
+// Rules for naming a variable :
+
+// Variable name should not start with an integer/number, 
+// but can start with underscore (_) or dollar sign ($).
+// Also we can't use spaces in-between the variable name.
+
+// Convention :
+// Start a variable name with small letter and use camelCase :
+let lastName = "Raj";
+let last_name = "Kumar";
+
+console.log(lastName); // camelCase writing
+console.log(last_name); // snake_case writing
