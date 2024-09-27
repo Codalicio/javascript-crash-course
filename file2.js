@@ -47,3 +47,8 @@ let age = 99;
 console.log(typeof(age));
 
 console.log(typeof(newName));
+
+// Convert a number to a string :
+let myAge = 99;
+myAge = myAge + "";
+console.log(typeof(myAge));
