@@ -53,9 +53,16 @@ let myAge = 99;
 myAge = myAge + "";
 console.log(typeof(myAge));
 
-// Convert a number to a string using a coonstructor :
+// Convert a number to a string using a constructor :
 let myNum = 898;
 console.log(typeof(myNum));
 
 myNum = String(myNum);
 console.log(typeof(myNum));
+
+// Convert a string to a number :
+let myStr = "78";
+console.log(typeof(myStr));
+
+myStr = +myStr;
+console.log(typeof(myStr));
