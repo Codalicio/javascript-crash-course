@@ -73,3 +73,26 @@ console.log(typeof(myStr1));
 
 myStr1 = Number(myStr1);
 console.log(typeof(myStr1));
+
+// String concatenation :
+
+let str1 = "My name is ";
+let str2 = "Amit.";
+console.log(str1 + str2);
+
+let fName = "Amit";
+let lName = "Raj";
+let fullName = (fName + " " + lName);
+console.log(fullName);
+
+let item1 = "45";
+let item2 = "78";
+let finalItem = item1 + item2;
+console.log(finalItem);
+console.log(typeof(finalItem));
+
+// Also,
+
+finalItem = +item1 + +item2;
+console.log(finalItem);
+console.log(typeof(finalItem));
