@@ -40,3 +40,10 @@ console.log(newName);
 
 newName = myName.slice(1);
 console.log(newName);
+
+// typeof operator :
+
+let age = 99;
+console.log(typeof(age));
+
+console.log(typeof(newName));
