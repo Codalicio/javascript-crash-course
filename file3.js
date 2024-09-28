@@ -26,3 +26,10 @@ console.log(num2, typeof(num2));
 
 let num3 = num1 + num2;
 console.log(num3, typeof(num3));
+
+// Booleans and comparison operator :
+
+let number1 = 8;
+let number2 = 7;
+
+console.log(number1 > number2);
