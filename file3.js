@@ -142,3 +142,18 @@ if(var3[0] === 'v' || var4 > 18) {
 } else {
     console.log("Inside else");
 };
+
+// Nested if/else :
+
+let winningNumber = 19;
+let userGuess = 18;
+
+if(userGuess === 19) {
+    console.log("Your guess is right");
+} else {
+    if(userGuess < winningNumber) {
+        console.log("Your guess is too low!");
+    } else {
+        console.log("Your guess is too high");
+    };
+};
