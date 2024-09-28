@@ -42,3 +42,11 @@ let string1 = '10';
 
 console.log(number3 == string1);
 console.log(number3 === string1);
+
+// != vs !== :
+
+let number4 = 11;
+let string2 = '11';
+
+console.log(number4 != string2);
+console.log(number4 !== string2);
