@@ -106,3 +106,11 @@ for(let i = 1; i < 10; i++) {
     };
     console.log(i);
 };
+
+// do-while loop :
+
+let k = 0;
+do {
+    console.log(k);
+    k++;
+} while(k <= 5);
