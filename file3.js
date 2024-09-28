@@ -33,3 +33,12 @@ let number1 = 8;
 let number2 = 7;
 
 console.log(number1 > number2);
+
+// == vs === :
+// == checks only the value, whereas === checks both the value and the Data Type :
+
+let number3 = 10;
+let string1 = '10';
+
+console.log(number3 == string1);
+console.log(number3 === string1);
