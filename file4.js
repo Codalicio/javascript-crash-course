@@ -54,3 +54,20 @@ switch(day) {
     default :
         console.log("Invalid day!");
 };
+
+// while loop :
+
+let num = 0;
+while(num < 10) {
+    console.log(num);
+    num++;
+};
+console.log(`Current value of num is ${num}.`);
+
+let sum = 0;
+let i = 1;
+while(i <= 10) {
+    sum = sum + i;
+    i++;
+};
+console.log(`The sum of first 10 natural numbers is ${sum}.`);
