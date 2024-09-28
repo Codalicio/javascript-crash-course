@@ -76,3 +76,15 @@ console.log(`The sum of first 10 natural numbers is ${sum}.`);
 let j = 100;
 let sumTotal = ((j*(j+1)) / 2)
 console.log(sumTotal);
+
+// for loop :
+
+for(let i = 0; i <= 9; i++) {
+    console.log(i);
+};
+
+let total = 0;
+for(let i = 1; i <= 10; i++) {
+    total = total + i;
+};
+console.log(total);
