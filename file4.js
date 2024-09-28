@@ -71,3 +71,8 @@ while(i <= 10) {
     i++;
 };
 console.log(`The sum of first 10 natural numbers is ${sum}.`);
+
+// Mathematical formula :
+let j = 100;
+let sumTotal = ((j*(j+1)) / 2)
+console.log(sumTotal);
