@@ -50,3 +50,21 @@ let string2 = '11';
 
 console.log(number4 != string2);
 console.log(number4 !== string2);
+
+// Conditionals :
+// if else statement :
+
+let age = 17;
+if(age >= 18) {
+    console.log("You can drive!");
+} else {
+    console.log("You cannot drive!");
+};
+
+let myNum = +prompt("Enter a number : ");
+
+if(myNum % 2 === 0) {
+    console.log(`The number ${myNum} is even.`);
+} else {
+    console.log(`The number ${myNum} is odd.`);
+};
