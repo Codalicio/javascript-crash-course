@@ -122,3 +122,23 @@ if(name5) {
 let myAge = 5;
 let drink = myAge >= 5 ? "Coffee" : "Milk";
 console.log(drink);
+
+// and operator and or operator :
+// and operator :
+
+let var1 = "Amit";
+let var2 = 27;
+if(var1[0] === 'A' && var2 > 18) {
+    console.log("Your name starts with 'A' and you are above 18!");
+} else {
+    console.log(`Either your name does not starts with 'A' or you are below 18!`);
+};
+
+// or operator :
+let var3 = "Vikas";
+let var4 = 5;
+if(var3[0] === 'v' || var4 > 18) {
+    console.log("Inside if");
+} else {
+    console.log("Inside else");
+};
