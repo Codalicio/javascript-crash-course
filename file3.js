@@ -118,3 +118,7 @@ if(name5) {
     console.log("That's false!");
 };
 
+// Ternary OPerator or Conditional operator :
+let myAge = 5;
+let drink = myAge >= 5 ? "Coffee" : "Milk";
+console.log(drink);
