@@ -61,10 +61,60 @@ if(age >= 18) {
     console.log("You cannot drive!");
 };
 
-let myNum = +prompt("Enter a number : ");
+let myNum = 36;
 
 if(myNum % 2 === 0) {
     console.log(`The number ${myNum} is even.`);
 } else {
     console.log(`The number ${myNum} is odd.`);
 };
+
+// Truthy and Falsy values :
+
+// Falsy values :
+// false
+// null
+// undefined
+// ""
+// 0
+
+// false :
+let name1 = false;
+if(name1) {
+    console.log(True);
+} else {
+    console.log(false);
+};
+
+// null :
+let name2 = null;
+if(name2) {
+    console.log("Hi");
+} else {
+    console.log("Hello");
+};
+
+// undefined :
+let name3;
+if(name3) {
+    console.log("Truthy")
+} else {
+    console.log("falsy");
+};
+
+// "" :
+let name4 = "";
+if(name4) {
+    console.log(1);
+} else{
+    console.log(-1);
+};
+
+// 0 :
+let name5 = 0;
+if(name5) {
+    console.log("That's true!");
+} else {
+    console.log("That's false!");
+};
+
