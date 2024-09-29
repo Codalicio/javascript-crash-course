@@ -35,3 +35,9 @@ console.log(arr6, arr7);
 arr8 = ['element1', 'element2'];
 arr9 = [...arr8, 'element3', 'element4'];
 console.log(arr9);
+
+// Combining two array into one :
+arr10 = [1, 2, 3];
+arr11 = [4, 5, 6];
+arr12 = [...arr10, ...arr11];
+console.log(arr12);
