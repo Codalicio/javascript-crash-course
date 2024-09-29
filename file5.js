@@ -45,3 +45,14 @@ console.log(fruits1);
 let poppedFruit1 = fruits1.pop();
 console.log(fruits1);
 console.log(`The popped fruit is ${poppedFruit1}.`);
+
+// unshift() method :
+fruits1.unshift("Strawberry");
+console.log(fruits1);
+
+// shift() method :
+let shiftedFruit = fruits1.shift();
+console.log(fruits1);
+console.log(`The shifted fruit is ${shiftedFruit}.`);
+
+// Note : push and pop methods are faster as compared to shift and unshift.
