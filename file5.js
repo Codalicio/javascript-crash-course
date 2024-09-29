@@ -30,3 +30,18 @@ console.log(mixed[7][2]);
 console.log(mixed[7].length);
 console.log(typeof(mixed));
 console.log(Array.isArray(mixed));
+
+// Adding elements to an array :
+
+// push() method :
+let fruits1 = ['apple', 'mango', 'grapes'];
+console.log(fruits1);
+
+fruits1.push("banana");
+console.log(fruits1);
+
+// pop() method :
+
+let poppedFruit1 = fruits1.pop();
+console.log(fruits1);
+console.log(`The popped fruit is ${poppedFruit1}.`);
