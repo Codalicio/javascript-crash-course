@@ -15,6 +15,8 @@ for(let key in personDetails) {
 };
 
 // Object.keys :
+// Object.keys(object) - will give an araray of keys, on which we can apply 'for of' loop.
+
 const keysArray = Object.keys(personDetails);
 console.log(keysArray);
 console.log(Array.isArray(keysArray));
