@@ -25,3 +25,16 @@ for(let hobby of hobbies) {
 for(let index in hobbies) {
     console.log(hobbies[index].toUpperCase());
 };
+
+// Adding ElementInternals(key:value) pairs to objects :
+
+personDetails.gender = "Male";
+console.log(personDetails);
+console.log(personDetails.gender.toUpperCase());
+
+// Bracket Notation :
+console.log(personDetails['name']);
+console.log(personDetails['age']);
+console.log(personDetails['address']);
+console.log(personDetails['hobbies']);
+console.log(personDetails['gender']);
