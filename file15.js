@@ -13,3 +13,17 @@ for(let key in personDetails) {
     console.log(personDetails[key]);
     console.log(`${key} : ${personDetails[key]}`);
 };
+
+// Object.keys :
+const keysArray = Object.keys(personDetails);
+console.log(keysArray);
+console.log(Array.isArray(keysArray));
+
+for(let key of keysArray) {
+    console.log(personDetails[key]);
+};
+
+for(let key of Object.keys(personDetails)) {
+    console.log(`${key} : ${personDetails[key]}`);
+};
+
