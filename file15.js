@@ -29,3 +29,17 @@ for(let key of Object.keys(personDetails)) {
     console.log(`${key} : ${personDetails[key]}`);
 };
 
+const obj = {
+    firstName : 'Amit',
+    lastName : 'Raj',
+    age : 27,
+    "my hobbies" : ['sleeping', 'listening to music', 'cricket']
+};
+
+for(let key in obj) {
+    console.log(obj[key]);
+};
+
+for(let key of Object.keys(obj)) {
+    console.log(obj[key]);
+};
