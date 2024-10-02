@@ -15,3 +15,16 @@ repeat(sing);
 
 // ------------------------------------------------
 
+for(let i = 0; i <= 1; i++) {
+    function hello(n) {
+        if(n === 0) {
+            return
+        };
+        console.log(n)
+        hello(n - 1);
+        console.log(n)
+    };
+    hello(5);
+};
+
+// hello(5);
