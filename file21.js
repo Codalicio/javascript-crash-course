@@ -65,3 +65,19 @@ if (sum(9) == 7) {
 // -----------------------------------------------------------------
 
 console.log(undefined + undefined); // => NaN(Not a Number)
+
+const isEvenOrOdd = (n) => n % 2 === 0;
+console.log(isEvenOrOdd(9000));
+
+function isEvenOrOdd1(n) {
+    return n % 2 === 0;
+};
+console.log(isEvenOrOdd1(99));
+
+const isEvenOrOdd2 = function(n) {
+    return n % 2 === 0;
+};
+console.log(isEvenOrOdd2(550));
+
+// ------------------------------------------------------------------
+
