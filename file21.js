@@ -81,3 +81,18 @@ console.log(isEvenOrOdd2(550));
 
 // ------------------------------------------------------------------
 
+function firstChar(string) {
+    return string[0];
+};
+console.log(firstChar("Amit"));
+
+const firstChar1 = function(string) {
+    return string[0];
+};
+console.log(firstChar1("Raj"));
+
+const firstChar2 = string => string[0];
+console.log(firstChar2("vikash"));
+
+// -----------------------------------------------------------
+
