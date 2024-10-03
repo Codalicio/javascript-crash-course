@@ -64,3 +64,4 @@ if (sum(9) == 7) {
 
 // -----------------------------------------------------------------
 
+console.log(undefined + undefined); // => NaN(Not a Number)
