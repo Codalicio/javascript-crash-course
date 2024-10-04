@@ -120,3 +120,18 @@ function targetIndex(array, target) {
 
 const result = targetIndex(array1, target);
 console.log(result);
+
+function indexOfTarget(array, target) {
+    for(let element of array) {
+        if(element === target) {
+            return 1;
+        };
+    };
+    return -1;
+};
+
+array2 = [7, 5, 100, 75, 83];
+const output = indexOfTarget(array2, 1000);
+console.log(output);
+
+// -------------------------------------------------------
