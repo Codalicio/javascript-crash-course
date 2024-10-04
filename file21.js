@@ -96,3 +96,27 @@ console.log(firstChar2("vikash"));
 
 // -----------------------------------------------------------
 
+const findTarget = (array, target) => {
+    for(let index in array) {
+        if(array[index] === target) {
+            return index;
+        };
+    };
+    return -1;
+};
+
+array1 = [1, 4, 5, 9, 88];
+target = 88;
+console.log(findTarget(array1, target));
+
+function targetIndex(array, target) {
+    for(let i = 0; i < array.length; i++) {
+        if(array[i] === target) {
+            return i;
+        };
+    };
+    return -1;
+};
+
+const result = targetIndex(array1, target);
+console.log(result);
